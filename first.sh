@@ -6,7 +6,7 @@ git init
 git remote add $3 https://github.com/$1/$2
 mkdir js css img
 npm init -y
-touch README.md index.html js/index.js css/styles.css
+touch README.md index.html js/index.js css/styles.css .gitignore
 git add .
 git commit -m"initial file setup"
 git push $3 master
